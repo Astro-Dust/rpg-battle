@@ -6,11 +6,11 @@
 - [x] Each character has combat attributes: Strength and Dexterity.
 
 **Battlefield:**
-- [ ] The battle takes place on varied terrain, with obstacles that can affect strategies.
+- [x] The battle takes place on varied terrain, with obstacles that can affect strategies.
 
 **Rounds:**
-- [ ] The battle is divided into 5 rounds.
-- [ ] Each round, a terrain event is randomly drawn: Open Terrain, Obstacle, or Ambush.
+- [x] The battle is divided into 5 rounds.
+- [x] Each round, a terrain event is randomly drawn: Open Terrain, Obstacle, or Ambush.
 
 **Terrain Events:**
 - [ ] **Open Terrain:** Players roll a 6-sided die and add their Dexterity attribute. The player with the highest result gains one point.
