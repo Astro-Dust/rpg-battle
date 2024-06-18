@@ -1,6 +1,6 @@
 // Open Terrain, Obstacle, or Ambush
 
-async function chooseTerrain() {
+function chooseTerrain() {
     let terrain = Math.random();
     let terrainChosen;
 
