@@ -4,6 +4,7 @@ const player1 = {
     "class": "Rogue",
     "strength": 10,
     "dexterity": 14,
+    "health": 50
 }
 
 const player2 = {
@@ -11,7 +12,8 @@ const player2 = {
     "race": "Human",
     "class": "Warrior",
     "strength": 13,
-    "dexterity": 9
+    "dexterity": 9,
+    "health": 50
 }
 
 module.exports = {
