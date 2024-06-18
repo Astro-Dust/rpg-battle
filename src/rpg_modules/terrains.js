@@ -12,8 +12,9 @@ async function chooseTerrain() {
         terrainChosen = "Ambush";
     }
 
-    console.log(terrain);
-    console.log(terrainChosen);
+    return terrainChosen;
 }
 
-chooseTerrain();
+module.exports = {
+    chooseTerrain,
+}
