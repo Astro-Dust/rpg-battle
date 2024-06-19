@@ -3,8 +3,14 @@ const player1 = {
     "race": "Drow",
     "class": "Rogue",
     "strength": 10,
-    "dexterity": 14,
-    "health": 50
+    "dexterity": 13,
+    "health": 25,
+    "attack": (opponent) => {
+        if (opponent.health > 0) {
+            opponent.health -= player1.strength;
+            return opponent.health;
+        }
+    }
 }
 
 const player2 = {
@@ -12,8 +18,14 @@ const player2 = {
     "race": "Human",
     "class": "Warrior",
     "strength": 13,
-    "dexterity": 9,
-    "health": 50
+    "dexterity": 11,
+    "health": 25,
+    "attack": (opponent) => {
+        if (opponent.health > 0) {
+            opponent.health -= player2.strength;
+            return opponent.health;
+        }
+    }
 }
 
 module.exports = {
