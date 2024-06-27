@@ -1,4 +1,4 @@
-// Open Terrain, Obstacle, or Ambush
+// Open Terrain, Obstacle
 
 function chooseTerrain() {
     let terrain = Math.random();
@@ -8,8 +8,6 @@ function chooseTerrain() {
         terrainChosen = "Open Terrain";
     } else if (terrain < 0.66) {
         terrainChosen = "Obstacle";
-    } else {
-        terrainChosen = "Ambush";
     }
 
     return terrainChosen;
