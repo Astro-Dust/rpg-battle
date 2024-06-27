@@ -103,3 +103,7 @@ function startBattle(character1, character2) {
 }
 
 startBattle(character.player1, character.player2);
+
+module.exports = {
+    startBattle,
+}
