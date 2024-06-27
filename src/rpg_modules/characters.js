@@ -8,7 +8,7 @@ const player1 = {
     "attack": (opponent) => {
         if (opponent.health > 0) {
             opponent.health -= player1.strength;
-            if (player1.attack > opponent.health) {
+            if (opponent.health < 0) {
                 opponent.health = 0;
             }
             return opponent.health;
